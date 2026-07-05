@@ -1,13 +1,12 @@
-package ru.otus.spring.integration.hw.services;
+package ru.otus.spring.integration.hw.models;
 
 import lombok.AllArgsConstructor;
-import org.springframework.stereotype.Service;
-import ru.otus.spring.integration.hw.models.Child;
+import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
 @AllArgsConstructor
-@Service
+@Component
 public class FamilyImpl implements Family {
 
     private static final String[] FIRST_NAME = {"Ваня", "Маша", "Коля", "Даша", "Вася", "Рита"};

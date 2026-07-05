@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import ru.otus.spring.integration.hw.services.Community;
+import ru.otus.spring.integration.hw.models.Community;
 
 @SpringBootApplication
 @RequiredArgsConstructor

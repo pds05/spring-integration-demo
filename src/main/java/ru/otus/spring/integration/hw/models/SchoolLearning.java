@@ -1,6 +1,4 @@
-package ru.otus.spring.integration.hw.services;
-
-import ru.otus.spring.integration.hw.models.Child;
+package ru.otus.spring.integration.hw.models;
 
 import java.util.Collection;
 

@@ -1,13 +1,12 @@
-package ru.otus.spring.integration.hw.services;
+package ru.otus.spring.integration.hw.models;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
-import ru.otus.spring.integration.hw.models.Child;
+import org.springframework.stereotype.Component;
 
 import java.util.Collection;
 
 @Slf4j
-@Service(value = "secondarySchool")
+@Component(value = "secondarySchool")
 public class SecondarySchool extends School {
 
     @Override

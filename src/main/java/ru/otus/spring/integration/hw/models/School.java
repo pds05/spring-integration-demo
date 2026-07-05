@@ -1,4 +1,4 @@
-package ru.otus.spring.integration.hw.services;
+package ru.otus.spring.integration.hw.models;
 
 public abstract class School implements SchoolLearning {
 

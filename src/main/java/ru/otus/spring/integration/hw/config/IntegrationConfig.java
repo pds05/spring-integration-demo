@@ -6,7 +6,7 @@ import org.springframework.integration.annotation.IntegrationComponentScan;
 import org.springframework.integration.dsl.*;
 import org.springframework.integration.scheduling.PollerMetadata;
 import ru.otus.spring.integration.hw.models.Child;
-import ru.otus.spring.integration.hw.services.*;
+import ru.otus.spring.integration.hw.models.School;
 
 @Configuration
 @IntegrationComponentScan(basePackages = "ru.otus.spring.integration.hw")

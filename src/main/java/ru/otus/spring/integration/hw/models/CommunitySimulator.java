@@ -1,9 +1,9 @@
-package ru.otus.spring.integration.hw.services;
+package ru.otus.spring.integration.hw.models;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import ru.otus.spring.integration.hw.models.Child;
+import ru.otus.spring.integration.hw.services.SchoolGateway;
 
 import java.util.ArrayList;
 import java.util.List;

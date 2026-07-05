@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import ru.otus.spring.integration.hw.services.School;
 
 @ToString
 @Getter
